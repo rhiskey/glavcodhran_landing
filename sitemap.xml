@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://sitemap-xml.ru-->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+  <url>
+    <loc>https://glavkodhran.ru/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/index.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/blog/2022/03/17/мы-запускаем-сервис-хостинга-репозит/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/blog/2022/03/17/запуск-менеджера-пакетов/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/blog/2022/03/17/интеграция-с-сервисами/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/?page_id=3</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/условия/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/login</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://glavkodhran.ru/blog/blog/category/uncategorized/</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
