@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Главкодхран - хранилище исходного кода и менеджер пакетов</title>
+    <meta name="description"
+          content="Главкодхран импортозамещающий продукт."/>
+
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme / Change theme here-->
+    <link rel="stylesheet" href="css/cyan.css" id="theme-color">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+
+<!--navigation-->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black" href="index.html">
+                Главкодхран
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">Возможности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#pricing">Стоимость</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/blog">Блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="#">
+                            <em data-feather="layout" width="18" height="18" class="mr-2"></em>
+                            Документация
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!--hero header-->
+<section class="py-7 py-md-0 bg-hero" id="home">
+    <div class="video-div">
+        <video id="video2" playsinline autoplay muted loop poster="static-image.jpg">
+            <source src="my-video-url.webm" type="video/webm">
+            <source src="video/bg_code.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container video-message">
+            <div class="row vh-md-100">
+                <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                    <h1 class="heading-black text-capitalize">Безопасная поддержка исходного кода - приоритет Главкодхран</h1>
+                    <p class="lead py-3">Главкодхран это хранилище проверенного исходного кода и менеджер пакетов.</p>
+                    <a href="#feedback">
+                        <button class="btn btn-primary d-inline-flex flex-row align-items-center">
+                            Подробнее
+                            <em class="ml-2" data-feather="arrow-right"></em>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- features section -->
+<section class="pt-6 pb-7" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="heading-black">Главкодхран предоставляет безопасное зеркало для разработчиков.</h2>
+                <p class="text-muted lead">Репозитории популярных пакетов от надежных проверенных источников.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row feature-boxes">
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-primary">
+                            <div class="icon-box-inner">
+                                <span data-feather="edit-3" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Подключитесь к зеркалу. Используйте в своих проектах.</h5>
+                        <p class="text-muted">Возможность использовать как удаленный источник верифицированного исходного 
+                            кода, так и менеджер пакетов.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-success">
+                            <div class="icon-box-inner">
+                                <span data-feather="monitor" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Для команд любого размера</h5>
+                        <p class="text-muted">Масштабируемое решение позволяет выдерживать нагрузки и обеспечивает
+                            бесперебойную работу.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-danger">
+                            <div class="icon-box-inner">
+                                <span data-feather="layout" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Удобный интерфейс доступа</h5>
+                        <p class="text-muted">Для хранилища доступны стандартные <code>git</code> команды.
+                            Для интеграции менеджера пакетов реализована подробная Wiki - документация.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-info">
+                            <div class="icon-box-inner">
+                                <span data-feather="globe" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Доступность во всех регионах РФ</h5>
+                        <p class="text-muted">Решение размещено на российском хостинге от надежного 
+                            сертифицированного поставщика облачных услуг.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6 mr-auto">
+                <h2>Главкодхран это не только сервис.</h2>
+                <p class="mb-5">Это полноценная замена зарубежных аналогов.</p>
+                <a href="#feedback" class="btn btn-light">
+                    Запросить доступ
+                </a>
+            </div>
+            <div class="col-md-5">
+                <div class="slick-about">
+                    <img src="img/blog-1.jpg" class="img-fluid rounded d-block mx-auto" alt="Work 1"/>
+                    <img src="img/blog-2.jpg" class="img-fluid rounded d-block mx-auto" alt="Work 2"/>
+                    <img src="img/blog-3.jpg" class="img-fluid rounded d-block mx-auto" alt="Work 3"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--pricing section-->
+<section class="py-7 bg-dark section-angle top-right bottom-right" id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="text-white heading-black">Выберите вашу подписку.</h2>
+                <p class="text-light lead">Для личного пользования - бесплатно</p>
+            </div>
+        </div>
+        <!--pricing tables-->
+        <div class="row pt-5 pricing-table">
+            <div class="col-12 mx-auto">
+                <div class="card-deck pricing-table">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title pt-3">Персональная</h3>
+                            <h2 class="card-title text-primary mb-0 pt-4">Бесплатно</h2>
+                            <div class="text-muted font-weight-medium mt-2">в месяц</div>
+                            <ul class="list-unstyled pricing-list">
+                                <li>1 пользователь</li>
+                                <li>10 репозиториев</li>
+                                <li>Доступ ко всем популярным исходникам</li>
+                                <li>Базовая поддержка</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">
+                                Приобрести
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title pt-3">Стартап</h3>
+                            <h2 class="card-title text-info mb-0 pt-4">XX руб.</h2>
+                            <div class="text-muted font-weight-medium mt-2">в месяц</div>
+                            <ul class="list-unstyled pricing-list">
+                                <li>2-15 пользователей</li>
+                                <li>50 репозиториев</li>
+                                <li>Доступ ко всем исходникам</li>
+                                <li>Расширенная поддержка</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">
+                                Приобрести
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title pt-3">Корпорация</h3>
+                            <h2 class="card-title text-primary mb-0 pt-4">XXX руб.</h2>
+                            <div class="text-muted font-weight-medium mt-2">в месяц</div>
+                            <ul class="list-unstyled pricing-list">
+                                <li>Безлимитное количество пользователей</li>
+                                <li>Безлимитные репозитории</li>
+                                <li>Доступ ко всем исходникам</li>
+                                <li>Поддержка 24/7</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">
+                                Приобрести
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-4 mr-auto">
+                <h3>Ваша кодовая база в безопасности.</h3>
+                <p class="lead">
+                    Сертифицированное хранилище с резервными копиями и зеркалированием репозиториев.
+                </p>
+            </div>
+            <div class="col-md-7 offset-md-1">
+                <ul class="features-list">
+                    <li>Доступ из любых сетей</li>
+                    <li>Собственное API</li>
+                    <li>Интеграции с CI/CD</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-8 col-12 divider top-divider mx-auto pt-5 text-center">
+                <h3>Попробуйте бесплатно</h3>
+                <p class="mb-4">Для личного пользования - бессрочный доступ</p>
+                <a href="#feedback">
+                    <button class="btn btn-primary">
+                        Создать аккаунт
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--faq section-->
+<section class="py-7" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>Часто задаваемые вопросы</h2>
+                <p class="text-muted lead">Ответы на популярные вопросы.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h6>Могу ли я попробовать сервис бесплатно?</h6>
+                        <p class="text-muted">В рамках персональной лицензии, да.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Есть ли дополнительные подписки?</h6>
+                        <p class="text-muted">Нет, вы платите целиком за месяц доступа к сервису.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Какие способы оплаты принимаются?</h6>
+                        <p class="text-muted">Мы принимаем карты МИР.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Как часто выпускаются обновления?</h6>
+                        <p class="text-muted">Поддержка сервиса пакетов осуществляется ежемесячно, хранилище обновляется каждую неделю.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Какая политика возврата средств?</h6>
+                        <p class="text-muted">Если вам не понравилась услуга - вернем средства.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>Как я могу связаться с вами?</h6>
+                        <p class="text-muted">Через <a href="#feedback">форму обратной связи</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4" id="feedback">
+            <div class="col-md-6 mx-auto text-center">
+                <h5 class="mb-4">Оставить заявку</h5>
+                <!-- <a href="#" class="btn btn-primary">Связаться с нами</a> -->
+                <script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script><iframe src="https://forms.yandex.ru/cloud/62332ffb24cf6183a7a6d1f3/?iframe=1" frameborder="0" name="ya-form-62332ffb24cf6183a7a6d1f3" width="500"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--news section-->
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="heading-black">Новости о проекте Главкодхран.</h2>
+                <p class="text-muted lead">Актуальные нововведения.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/blog-1.jpg" alt="Blog 1">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Мы запускаем сервис хостинга репозиториев</h5></a>
+                        <p class="text-muted small-xl mb-2">01 _____, 2023</p>
+                        <p class="card-text">Разработка архитектуры проекта. <a href="/blog/blog/2022/03/17/мы-запускаем-сервис-хостинга-репозит/">Подробнее</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/blog-2.jpg" alt="Blog 2">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Запуск менеджера пакетов</h5></a>
+                        <p class="text-muted small-xl mb-2">01 _____, 2023</p>
+                        <p class="card-text">Выход на MVP. <a href="/blog/blog/2022/03/17/запуск-менеджера-пакетов/">Подробнее</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/blog-3.jpg" alt="Blog 3">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Интеграция с сервисами</h5></a>
+                        <p class="text-muted small-xl mb-2">01 _____, 2024</p>
+                        <p class="card-text">Расширенная интеграция для масштабирования. <a href="/blog/blog/2022/03/17/интеграция-с-сервисами/">Подробнее</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6 mx-auto text-center">
+                <a href="/blog" class="btn btn-primary">Все новости</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer class="py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 mr-auto">
+                <h5>О Главкодхран</h5>
+                <p class="text-muted">Российская кодовая база и менеджер пакетов для различных языков программирования.</p>
+                <ul class="list-inline social social-sm">
+                    <li class="list-inline-item">
+                        <a href=""><i class="fa fa-vk"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Официальные данные</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/blog/?page_id=3">Конфиденциальность</a></li>
+                    <li><a href="/blog/условия/">Условия</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Партнерство</h5>
+                <ul class="list-unstyled">
+                    <li>Реферальная программа</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Помощь</h5>
+                <ul class="list-unstyled">
+                    <li>Поддержка</li>
+                    <li><a href="/blog/login">Войти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+                &copy; 2022 Главкодхран - Все права защищены
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
